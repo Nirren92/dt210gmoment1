@@ -4,6 +4,7 @@
   margin: 1rem auto;
   border-radius: 4px;
   background-color: tomato;
+  flex: 1 1 300px;
 }
 
 .item-container h2 {
@@ -11,7 +12,7 @@
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: white;
-  background-color: #458659; 
+  background-color: #456986; 
   padding: 0.5rem;
   text-align: center; 
   border-radius: 4px 4px 0px 0px;  
@@ -19,14 +20,15 @@
 
 .item-container p {
   width: 80%;
-  text-align: center;
   padding: 10px;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   margin: 0;
+  padding-left: 10%;
   word-wrap: break-word;
   word-break: break-word;
   overflow-wrap: break-word;
   width: normal;
   font-size: 1.5em;
-  color: black;
+  
+ 
 }
