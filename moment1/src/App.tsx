@@ -2,8 +2,8 @@ import './App.css'
 
 import Header from './components/Header/Header';
 import Item from './components/item/Item';
-
-
+import Footer from './components/footer/Footer';
+import banner from './assets/20221004_114444.jpg';
 
 function App() {
 
@@ -22,7 +22,8 @@ function App() {
     
     <main>
         <Header titel="Böcker" />
-     
+        <img src={banner} alt="banner" className="banner" />
+
         <Item itemTitel="info" itemText="Detta är bäcker som är bra. icke lästa böcker är röda medans lästa är gröna" itemBoolean={false} itemInfo = {true} />
 
 
@@ -33,6 +34,8 @@ function App() {
 
            
         </div>
+
+        <Footer  footText='Hemsidan är utvecklad av niklas :)' />
 
       </main>
 
